@@ -20,16 +20,16 @@ header{
 
 strong {
     font-size: 20px;
-    color: rgb(255, 30, 83);
+    color: rgb(30, 203, 255);
 }
 
 #welcome{
     font-size: 28px;
-    color: rgb(255, 30, 83);
+    color: rgb(30, 203, 255);
 }
 
 button{
-    background-color: rgb(255, 30, 83);
+    background-color: rgb(30, 203, 255);
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
