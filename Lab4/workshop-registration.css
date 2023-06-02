@@ -1,0 +1,60 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: aquamarine;
+    display: flex;
+    padding-left: 8px;
+}
+
+.info{
+    margin: 16px 8px;
+
+}
+
+.row{
+    display: flex;
+}
+
+.column{
+    flex: 50%;
+    margin: 8px;
+}
+
+.required{
+    color: red;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-gap: 10px; /* Gap between columns */
+    margin-top: 20px;
+}
+
+label {
+    text-align: left;
+}
+
+fieldset{
+    border-color: transparent;
+}
+
+.footer{
+    background-color: lightgray;
+    padding: 16px;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+}
+
+.button{
+    background-color: aquamarine;
+    padding: 8px;
+}
