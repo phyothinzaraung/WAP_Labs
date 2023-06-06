@@ -14,3 +14,11 @@ const result = students.filter(stu => stu.courses.includes('cs303'))
     }, {});
 
 console.log(result);
+
+const result1 = students.filter(student => student.includes('cs303'))
+.reduce((accum, elem) => {
+    let average = elem.includes.reduce((avg, grade, index, arr)=> avg + grade/arr.length, 0);
+    accum[elem.name] = average;
+    return accum;
+}, {});
+
