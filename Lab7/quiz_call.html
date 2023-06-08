@@ -11,9 +11,10 @@
             title: "Our Group",
             students: ["John", "Pete", "Alice"],
             showList: function () {
-                this.students.forEach(function (student) {
+                eachStudent = function(student){
                     console.log(this.title + ": " + student);
-                }, this); // Set 'this' context using apply
+                }
+                this.students.forEach(student => eachStudent(student).call(this, student)); // Set 'this' context using apply
             }
         };
 
