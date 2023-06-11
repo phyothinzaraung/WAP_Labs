@@ -1,4 +1,5 @@
 const input = 6;
+
 const inputArr = [];
 for(let i=input; i>0; i--){
     inputArr.push(i);

@@ -4,10 +4,10 @@ const input = [
     ["d", "f", "g"],
   ];
 
-  let result = [].concat(... input);
-  console.log(result);
+//   let result = [].concat(... input);
+//   console.log(result);
 
-  const output = result.reduce((accum, value) => {
+  const output = input.flat().reduce((accum, value) => {
       if(!accum[value]){
           accum[value] = 1;
       }else{
