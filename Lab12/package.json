@@ -1,4 +1,13 @@
 {
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exercise2.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
   }
